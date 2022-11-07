@@ -1,0 +1,128 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    background-color: brown;
+    height: 42vw;
+    width:40vw;
+   
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    
+}
+#hour{
+width: 2%;
+height: 29%;
+top: 19%;
+left: 49.5%;
+opacity: 0.8;
+
+
+}
+#minute{
+width: 1.3%;
+height: 33%;
+top: 15%;
+left: 49.4%;
+opacity: 0.8;
+
+}
+#second{
+width: 1%;
+height: 34%;
+top: 13%;
+left: 49.5%;
+
+}
+
+@media (max-device-width: 450px){
+    #clockContainer{ 
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 18rem;
+        height: 60vw;
+        width: 40vw;
+
+        background-size: 100%;
+
+    }
+    #hour, #minute, #second{
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform-origin: bottom;
+        
+    }
+    #hour{
+    width: 3%;
+    height:15%;
+    top: 18%;
+    left: 49.6%;
+    opacity: 0.8;
+    
+    
+    }
+    #minute{
+    width: 1.3%;
+    height: 25%;
+    top: 8%;
+    left: 49%;
+    opacity: 0.8;
+    
+    }
+    #second{
+    width: 1%;
+    height: 25%;
+    top: 8%;
+    left: 49.5%;
+    
+    }
+};
+
+@media  only screen and (min-device-width: 500px) and (max-device-width: 800px){
+    #clockContainer{ 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12rem;
+        height: 50vw;
+        width: 50vw;
+
+    }
+    #hour, #minute, #second{
+        position: absolute;
+        background: black;
+        border-radius: 10px;
+        transform-origin: bottom;
+        
+    }
+    #hour{
+    width: 3%;
+    height:15%;
+    top: 18%;
+    left: 49.6%;
+    opacity: 0.8;
+    
+    
+    }
+    #minute{
+    width: 1.3%;
+    height: 25%;
+    top: 8%;
+    left: 49%;
+    opacity: 0.8;
+    
+    }
+    #second{
+    width: 1%;
+    height: 25%;
+    top: 8%;
+    left: 49.5%;
+    
+    }
+};
